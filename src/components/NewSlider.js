@@ -32,13 +32,15 @@ const NewSlider = () => {
     5000: {
       style: {
         color: 'white',
-        padding: '10px 0px'
+        padding: '10px 0px',
+        fontFamily:"Monserrat, sans-serif",
       },
       label: 5000,
     },
     50000: {
       style: {
         color: 'white',
+        fontFamily:"Monserrat, sans-serif",
         padding: '10px 0px'
       },
       label: 50000,
