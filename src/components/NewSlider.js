@@ -65,13 +65,13 @@ const NewSlider = () => {
 
   // formatear numeros a monedas
   const formatNumber = (number) => {
-    return new Intl.NumberFormat("ARG-ES", {style: "currency"}).format(number)
+    return new Intl.NumberFormat('es-AR' , {currency: 'ARS', style: 'currency'}).format(number)
   }
 
   return (
     <div className="contenedor">
 
-      <TextSlider titulo={'MONTO TOTAL'} gasto={formatNumber(gasto.monto)} />
+      <TextSlider titulo={'MONTO TOTAL'} gasto={formatNumber(gasto.monto) } />
 
 
       <Rango

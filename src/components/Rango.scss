@@ -11,14 +11,9 @@
             text-align: center;
             margin-left: auto;
             border: 1px solid $blanco;
-            width: 100px;
+            width: 150px;
             padding: 5px 0;
-
             font-weight: 700;
-
-            @media screen and (min-width:768px){
-                width: 160px;
-            }
         }
     }
 }
