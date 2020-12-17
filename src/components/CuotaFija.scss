@@ -1,0 +1,23 @@
+@import '../App.scss';
+
+.CuotaFija{
+    background: $azul;
+    margin-top: 50px;
+    padding: 5px 15px;
+
+
+
+    @media screen and (min-width:768px){
+        display: flex;
+        align-items: center;
+    }
+
+    p{
+        font-weight: 700;
+    }
+
+    h1{
+        margin-left: auto;
+    }
+
+}

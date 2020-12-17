@@ -1,0 +1,41 @@
+@import '../App.scss';
+
+.botonera{
+    @media screen and (min-width:768px){
+        display: flex;
+        align-items: center;
+    }
+
+    .btn{
+        
+        display: block;
+        font-weight: 700;
+        border: none;
+        color: $blanco;
+        height: 60px;
+        width: 100%;
+        cursor: pointer;
+        margin: 10px 0;
+
+        @media screen and (min-width:768px){
+            margin: 0;
+            width: inherit;
+            
+            &.primary{
+                width: 70%;
+                margin-right: 5px;
+            }
+        }
+        
+
+        &.primary{
+            background: $verde;
+            font-size: 18px;
+        }
+
+        &.secondary{
+            background: $azulClaro;
+            font-size: 16px;
+        }
+    }
+}
