@@ -65,7 +65,7 @@ const NewSlider = () => {
 
   // formatear numeros a monedas
   const formatNumber = (number) => {
-    return new Intl.NumberFormat("arg-ES", {style: "currency", currency: "ARS"}).format(number)
+    return new Intl.NumberFormat("ARG-ES", {style: "currency"}).format(number)
   }
 
   return (
